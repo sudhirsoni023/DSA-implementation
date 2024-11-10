@@ -1,3 +1,9 @@
+// A linked list is a linear data structure where elements (called nodes) are connected in a sequence, each containing two parts:
+// Data: The value or content of the node.
+// Next (or Pointer): A reference to the next node in the sequence (in the case of a singly linked list).
+// A linked list allows for efficient insertion and deletion of elements, especially when you don't know the size in advance 
+// or when frequent insertions/deletions are required. Unlike arrays, linked lists do not require contiguous memory allocation,
+//  and they can dynamically grow or shrink in size.
 public class SinglyLinkedList {
 
     private Node head; // this will point to the head node

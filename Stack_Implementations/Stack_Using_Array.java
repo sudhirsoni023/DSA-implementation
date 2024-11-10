@@ -1,3 +1,7 @@
+// A stack is a fundamental data structure that follows a Last-In, First-Out (LIFO) order. 
+// This means the last element added to the stack is the first one to be removed. 
+// You can think of a stack like a stack of plates in a cafeteria: the last plate placed on top is the first one you take off
+// when you need one.
 public class Stack_Using_Array {
     private int top = -1; // initialize the value of top by -1 so that it should not point any value of
                           // an array
