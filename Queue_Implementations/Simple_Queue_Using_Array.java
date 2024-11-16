@@ -12,7 +12,7 @@ public class Simple_Queue_Using_Array {
     public void enqueue(int data) {
         if (isEmpty()) {
             front = rear = 0; // when first element is inserted we will set the index of front and rear as 0
-            arr[0] = data; // and then we will insert the data in that index
+            arr[rear] = data; // and then we will insert the data in that index
             return;
         }
         if (rear == (arr.length - 1)) {
