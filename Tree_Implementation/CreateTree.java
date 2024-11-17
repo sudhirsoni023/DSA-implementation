@@ -27,7 +27,7 @@ public class CreateTree {
         System.out.println("Enter right data for " + data);
         System.out.println("Enter -1 if you dont want to insert right data of " + data);
         root.right = createTree(); // link right of root node with the new node created
-        return root;
+        return root; // return the root node of the binary Tree
     }
 
     public static void main(String[] args) {
