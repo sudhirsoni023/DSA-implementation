@@ -1,6 +1,8 @@
 public class Height_Of_BinaryTree {
+    // Height of a Binary tree is defined as the number of edges on the longest path
+    // from the root node to a leaf node.
     public int height_Of_BinaryTree(CreateTree.Node root) {
-        if (root == null) // if we have only 1 node in our tree
+        if (root == null)
             return 0;
         // we will find the height of left subtree and height of right subtree and then
         // add 1 to that result
